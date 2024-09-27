@@ -1,0 +1,93 @@
+
+             
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+form{
+    display: flex;
+    background-image: url("lyte.jpg");
+    flex-direction: column;
+    width: 600px;
+    margin: 20px auto 0 auto;
+    padding: 60px;
+    border: 2px solid rgba(0, 0, 0,.16);
+    font-family: "Lato", sans-serif;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    box-shadow: inset 5px 5px 12px #f7c5a5,
+                5px 5px 12px rgba(0, 0, 0,.16);
+    
+                               
+}
+h1{
+    text-align: center;
+}
+label{
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input[type="file"]{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+input[type="text"],input[type="date"],textarea{
+    width:90%;
+    height: 30px;
+    font-size: 20px;
+    padding-left: 20px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+input[type="text"],input[type="date"]{
+    border: none;
+    border-bottom: 2px solid burlywood;
+}
+textarea{
+    height: 60px;
+}
+input[type="submit"]{
+    cursor: pointer;
+    height: 30px;
+    width: 30%;
+    margin: 10px auto 0 auto;
+    color: black;
+    font-weight: 900;
+    font-size: 20px;
+}
+input:focus{
+    outline: 0;
+    text-align: center;
+    background-color: #f7c5a5;
+}
+.gender{
+    display: flex;
+    gap: 20px;
+}
+input[type="file"]{
+    width: 200px;
+    height: 20px;
+    font-weight: 600;
+}
+@media(max-width:700px){
+
+    form{
+        margin: 20px auto 0 auto;
+        font-size: 10px;
+        width: 300px;
+    }
+
+    input[type="submit"]{
+        font-size: 20px;
+        font-weight: none;
+        width: 100px;
+    }
+
+}

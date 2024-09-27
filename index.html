@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="continer">
+        <div class="form">
+          
+
+            <form action="#" name="form" onsubmit="return validation()">
+               
+                <h1>Application form</h1>
+
+                <label for="uname">Full Name</label>
+                <input type="text" name="uname" id="uname" placeholder="Enter Your Name">
+
+                <label for="mobile">Mobile</label>
+                <input type="text" name="mobile" id="mobile" placeholder="Mobile number">
+
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" placeholder="enter E-mail">
+
+                <label for="dob">Date Of Birth</label>
+                <input type="date" name="dob" id="dob">
+
+                <label for="gender">Gender</label>
+                <div class="gender">
+                    <p>male <input type="radio" id="gen" name="radio"></p> <p>Femal <input type="radio" id="gen" name="radio"></p> <p>Trans Gender <input type="radio"  name="radio" id="gen"></p>
+                </div>
+
+                <label for="aadhar">Aadhar Number</label>
+                <input type="text" name="aadhar" id="aadhar" placeholder="Enter aadhar Number">
+
+                <label for="address">Address</label>
+                <textarea name="address" id="address" placeholder="Enter Address"></textarea>
+
+                <label for="fname">Father Name</label>
+                <input type="text" name="fname" id="fname" placeholder="Enter Father Name">
+
+                <label for="mname">Mother Name</label>
+                <input type="text" name="mname" id="mname">
+
+                <label for="qualification">Qualification</label>
+                <input type="text" name="qualification" id="qualification">
+
+                <input type="file">
+
+                <input type="submit" id="submit">
+
+
+
+            </form>
+
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
